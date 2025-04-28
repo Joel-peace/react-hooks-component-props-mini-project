@@ -5,7 +5,6 @@ import ArticleList from "./ArticleList";
 import blogData from "../data/blog";
 
 function App() {
-  console.log(blogData);
   return (
     <div className="App">
       <Header name={blogData.name} />
